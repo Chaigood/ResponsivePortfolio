@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="./mystyle.css">
 </head>
 <body>
+       <!-- Navigation Bar with Burger Button -->
     <header class="navbar navbar-expand-lg navbar-light bg-light">
-        <h2>CJ Haigood</h2>
+      <h2 id="name">CJ Haigood</h2>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <label class="navbar-toggler-icon"></label>
         </button>
@@ -30,11 +31,16 @@
           </ul>
         </nav>
     </header>
+    <!-- Main Content Section with Photo and short bio -->
     <main class ="container" id ="border">
-      <section class="row">
+      <section class="col">
         <h1 id="SectionHead">About Me</h1>
-        <div class="col-12 col-md-8">.col-12 .col-md-8</div>
-        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+        <figure class="col-6 col-md-4">
+          <img class="mr-3" src="./Assets/Images/Alps.JPG" alt="Swiss Alps">
+        </figure>
+        <article class="col-12 col-md-8"><br><br>
+          <p>I enjoy travelling, movies, reading, and coding. Also, I think Michael Keaton was the best Batman</p>
+        </article>
       </section>
     </main>
 </body>

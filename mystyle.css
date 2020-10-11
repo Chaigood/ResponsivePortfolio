@@ -1,12 +1,18 @@
+/* Heading Styles */
 #SectionHead {
     font-size: 25px;
     font-weight: bolder;
     color: teal;
     box-sizing: border-box;    
 }
-
+/* Main Content Border Styles */
 #border {
     padding: 50px;
     background-color: silver;
     border: 5px solid black;
+}
+/* Name Styles */
+#name {
+    background-color: teal;
+    color: white;
 }
