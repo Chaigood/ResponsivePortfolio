@@ -5,6 +5,13 @@
     color: teal;
     box-sizing: border-box;    
 }
+/*Sub Heading */
+#SubHead {
+    font-size: 15px;
+    font-weight: bolder;
+    color: teal;
+    box-sizing: border-box;    
+}
 /* Main Content Border Styles */
 #border {
     padding: 50px;
